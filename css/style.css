@@ -56,17 +56,10 @@ header {
   height: 100%;
   object-fit: cover;
 }
-h1 {
+.section-one-article {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 800;
-  font-style: Italic;
-  font-size: 48px;
-  line-height: 56px;
-  letter-spacing: 0%;
-  color: #ffffff;
-  text-shadow: 6px 2px 4px rgba(0, 0, 0, 1);
   width: 762px;
   height: 208px;
   border-radius: 10px;
@@ -76,6 +69,15 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+h1 {
+  font-weight: 800;
+  font-style: Italic;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  text-shadow: 6px 2px 4px rgba(0, 0, 0, 1);
 }
 /* section-2 */
 .section-two {
