@@ -124,6 +124,11 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+.footer-container-link{
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
 .footer-container-text {
   font-family: Inter;
   font-weight: 400;
@@ -132,12 +137,6 @@ footer {
   line-height: 24px;
   letter-spacing: 0%;
   color: #fcc21b;
-}
-.margin {
-  margin-block: 8px;
-}
-.margin-2 {
-  margin-top: 8px;
 }
 .footer-container-socmedia {
   display: flex;
